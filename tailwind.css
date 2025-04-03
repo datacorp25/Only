@@ -1,0 +1,130 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --canalviptelegram-site-poppins-regular-font-family: "Poppins", Helvetica;
+  --canalviptelegram-site-poppins-regular-font-size: 18px;
+  --canalviptelegram-site-poppins-regular-font-style: normal;
+  --canalviptelegram-site-poppins-regular-font-weight: 400;
+  --canalviptelegram-site-poppins-regular-letter-spacing: 0.800000011920929px;
+  --canalviptelegram-site-poppins-regular-line-height: 28px;
+  --canalviptelegram-site-semantic-heading-1-font-family: "Poppins", Helvetica;
+  --canalviptelegram-site-semantic-heading-1-font-size: 36px;
+  --canalviptelegram-site-semantic-heading-1-font-style: normal;
+  --canalviptelegram-site-semantic-heading-1-font-weight: 800;
+  --canalviptelegram-site-semantic-heading-1-letter-spacing: 0.5px;
+  --canalviptelegram-site-semantic-heading-1-line-height: 37px;
+  --canalviptelegram-site-semantic-heading-2-font-family: "Poppins", Helvetica;
+  --canalviptelegram-site-semantic-heading-2-font-size: 12px;
+  --canalviptelegram-site-semantic-heading-2-font-style: normal;
+  --canalviptelegram-site-semantic-heading-2-font-weight: 300;
+  --canalviptelegram-site-semantic-heading-2-letter-spacing: 0.5px;
+  --canalviptelegram-site-semantic-heading-2-line-height: 38px;
+  --canalviptelegram-site-semantic-heading-2-upper-font-family: "Poppins", Helvetica;
+  --canalviptelegram-site-semantic-heading-2-upper-font-size: 20px;
+  --canalviptelegram-site-semantic-heading-2-upper-font-style: normal;
+  --canalviptelegram-site-semantic-heading-2-upper-font-weight: 600;
+  --canalviptelegram-site-semantic-heading-2-upper-letter-spacing: 7px;
+  --canalviptelegram-site-semantic-heading-2-upper-line-height: 24px;
+  --canalviptelegram-site-semantic-heading-6-font-family: "Poppins", Helvetica;
+  --canalviptelegram-site-semantic-heading-6-font-size: 12px;
+  --canalviptelegram-site-semantic-heading-6-font-style: normal;
+  --canalviptelegram-site-semantic-heading-6-font-weight: 300;
+  --canalviptelegram-site-semantic-heading-6-letter-spacing: 0.5px;
+  --canalviptelegram-site-semantic-heading-6-line-height: 38px;
+  --canalviptelegramsiteblack: rgba(0, 0, 0, 1);
+  --canalviptelegramsitecerulean: rgba(11, 179, 243, 1);
+  --canalviptelegramsitecod-gray: rgba(17, 17, 17, 1);
+  --canalviptelegramsitegray: rgba(139, 139, 139, 1);
+  --canalviptelegramsitewhite: rgba(255, 255, 255, 1);
+  --canalviptelegramsitewhite-black: rgba(0, 0, 0, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
