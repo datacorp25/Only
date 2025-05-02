@@ -51,7 +51,7 @@ export const ElementLight = (): JSX.Element => {
         </div>
 
         <a 
-          href="https://t.me/+eIunvpVwhp8wOTRh" 
+          href="https://t.me/+56W00GiLvk9hNjQx" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-full sm:w-auto"
