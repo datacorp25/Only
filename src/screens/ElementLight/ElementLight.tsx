@@ -51,7 +51,7 @@ export const ElementLight = (): JSX.Element => {
         </div>
 
         <a 
-          href="https://t.me/Superonlyprivacybot" 
+          href="https://t.me/Superonlyprivacybot?start=ADS" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-full sm:w-auto"
